@@ -1,0 +1,51 @@
+div{
+top:100px;
+left:280px;
+position: relative;
+width: 920px;
+}
+
+.coloumn
+{
+ width:80px;
+ height:80px; 
+ left:-30px;
+ position:relative;  
+ text-align: center;
+ font-size: 44px;
+}
+
+.right
+{
+    border-right: 5px solid black;  
+}
+
+table tr:first-of-type td{
+    border-bottom: 5px solid black;
+}
+
+table tr:last-of-type td{
+    border-top: 5px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+h1{
+    font-size: 40;
+    left:-350px;
+    position:relative;
+    height:20px;
+    padding-bottom:20px;
+    text-align: center;
+}
+
+h1:last-of-type
+{
+    position: relative;
+    left:-320px;
+}
+
+
+
